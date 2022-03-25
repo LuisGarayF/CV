@@ -4,50 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="72x72" href="/assets/img/icon-72x72.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+
     <title>Curriculum Vitae</title>
 </head>
 <body>
-    <header style=" padding-top: 10px; font-family: Helvetica;">
-     <h1 style="text-align: center; color:darkblue;">Curriculum Vitae</h1>   
-    </header>
-    <main>
-        <div class="container_img" style="text-align: center;">
-            <img src="assets/img/img_profile1.jpg" style="width: 200px;" alt="imagen_perfil" class="img_profile">
-        </div>
-        <div style="text-align: center; color:darkblue">
-            <h2>Luis Alexander Garay Fuentes</h2>
-            </div>
-            <div style="text-align: left; padding-left:20px; ">
-                <h3 style="color:darkblue;"><i class="fa-solid fa-suitcase" style="padding:4px;"></i> Acerca de mí </h3>
-            <div>
-                <p>Soy un aficionado a la técnología, las personas que me conocen saben que soy una persona que le gusta asumir nuevos desafíos, ya sea ejecutando proyectos personales relacionados con la electrónica o aprendiendo constantemente sobre tecnología.</p>
-                <p>En el ámbito profesional me he dedicado principalmente al área de la seguridad electrónica. Comencé como técnico en un servicio técnico y en terreno viajando por todo el país.</p>
-                <p>En ese período obtuve mi título y comencé a desempeñarme como Ingeniero en Soporte, posteriormente me especialicé en sistemas contra incendios, un área que me gustó mucho y en la que conocí grandes profesionales; durante ese proceso también trabajé como Administrador de Proyectos y finalmente fui Supervisor Eléctrico en la construcción de SSEE en PMCHS.</p>
-                <p>Actualmente me desempeño de forma independiente realizando instalaciones, diseñando proyectos y puestas en servicio, principalmente con trabajos relacionados con confección de planos eléctricos, inscripciones ante la SEC, instalaciones de sistemas de CCTV convencional e IP, controles de acceso peatonal y vehicular, sistemas automatizados de estacionamiento, sistemas de seguridad y alarmas, sistemas contra incendio.</p>
-                <p>Como pasatiempo me dedico a la impresión 3D, imprimiendo piezas, creando mis propios prototipos y reparando impresoras con problemas.</p>
-                <p>Aprendí mucho en mi vida profesional, ya sea por iniciativa propia leyendo muchos, asistiendo a certificaciones y sobre todo aprendiendo de muy buenos profesionales, compañeros de trabajo que durante el paso por cada una de las empresas, se dieron el tiempo de enseñarme y trasmitirme su conocimiento.</p>
-                <p>Soy una persona con mucha disposición a aprender e ir mejorando cada día, puedo trabajar y adaptarme fácilmente al trabajo en equipo y realmente me gusta instruir a otras personas. </p>
-                <p>Actualmente me encuentro cursando el desafio del Bootcamp de <strong style="color:darkblue;">DESARROLLO DE APLICACIONES FULL STACK PYTHON TRAINEE</strong></p>
-            </div>
-        
-                <h3 style="color:darkblue;"><i class="fa-solid fa-clipboard-list" style="padding:4px;"></i> Datos Personales</h3>
-                    <ul style="list-style:none; text-align: left;">
-                        <li><strong style="color:darkblue;"> Nombre :</strong>Luis Garay Fuentes</li>
-                        <li><strong style="color:darkblue;">Lugar de nacimiento :</strong> Providencia</li>
-                        <li><strong style="color:darkblue;">Fecha de nacimiento :</strong> 03 de Marzo de 1985</li>
+    <div class="container">
+    <div class="row">
+        <h1 class="title">Curriculum Vitae</h1> 
+        <h3 class="personal_data"><i class="fa-solid fa-clipboard-list"></i> Datos Personales</h3>
+            <div class="columns">
+                <div>
+                    <ul class="derecha">
+                        <li>Nombre </li>
+                        <li>Lugar de nacimiento</li>
+                        <li>Fecha de nacimiento</li>
                     </ul>
-                <h3 style="color:darkblue;"><i class="fa-solid fa-pen" style="padding:4px;"></i>Formación</h3>
+                </div>
+                  <div>
+                    <ul class="izquierda">
+                        <li>Luis Garay Fuentes</li>
+                        <li>Providencia</li>
+                        <li>03 de Marzo de 1985</li>
+                    </ul>
+                  </div>
+            </div>
+            <div>
+                <p class="tks_para">Muchas gracias por tu interés. Si quieres saber más sobre mí : </p>
+        <a href="https://github.com/LuisGarayF" target="_blank"><i class="fa-brands fa-github" id="github"></i></a>
+        <a href="https://www.linkedin.com/in/luisgarayfuentes/"  target="_blank"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+            </div>
+    </div>
+    <main>
+        <div class="container_img">
+            <img src="assets/img/img_profile1.jpg" alt="imagen_perfil" class="img_profile">
+        </div>
+        <div>
+            <h2 class="name">Luis Alexander Garay Fuentes</h2>
+        </div>
+        <div class="about_container">
+                <h3 class="sub_title"><i class="fa-solid fa-suitcase"></i> Acerca de mí </h3>
+                <div class="about_container_text">
+                    <span></span>
+                    <div>
+                        <p>Soy un aficionado a la técnología, las personas que me conocen saben que soy una persona que le gusta asumir nuevos desafíos, ya sea ejecutando proyectos personales relacionados con la electrónica o aprendiendo constantemente sobre tecnología.</p>
+                        <p>En el ámbito profesional me he dedicado principalmente al área de la seguridad electrónica. Comencé como técnico en un servicio técnico y en terreno viajando por todo el país.</p>
+                        <p>En ese período obtuve mi título y comencé a desempeñarme como Ingeniero en Soporte, posteriormente me especialicé en sistemas contra incendios, un área que me gustó mucho y en la que conocí grandes profesionales; durante ese proceso también trabajé como Administrador de Proyectos y finalmente fui Supervisor Eléctrico en la construcción de SSEE en PMCHS.</p>
+                        <p>Actualmente me desempeño de forma independiente realizando instalaciones, diseñando proyectos y puestas en servicio, principalmente con trabajos relacionados con confección de planos eléctricos, inscripciones ante la SEC, instalaciones de sistemas de CCTV convencional e IP, controles de acceso peatonal y vehicular, sistemas automatizados de estacionamiento, sistemas de seguridad y alarmas, sistemas contra incendio.</p>
+                        <p>Como pasatiempo me dedico a la impresión 3D, imprimiendo piezas, creando mis propios prototipos y reparando impresoras con problemas.</p>
+                        <p>Aprendí mucho en mi vida profesional, ya sea por iniciativa propia leyendo muchos, asistiendo a certificaciones y sobre todo aprendiendo de muy buenos profesionales, compañeros de trabajo que durante el paso por cada una de las empresas, se dieron el tiempo de enseñarme y trasmitirme su conocimiento.</p>
+                        <p>Soy una persona con mucha disposición a aprender e ir mejorando cada día, puedo trabajar y adaptarme fácilmente al trabajo en equipo y realmente me gusta instruir a otras personas. </p>
+                        <p>Actualmente me encuentro cursando el desafio del Bootcamp de <strong class="negrita">DESARROLLO DE APLICACIONES FULL STACK PYTHON TRAINEE</strong></p>
+                    </div>
+                    <span></span>    
+                </div>
+                <h3 class="sub_title"><i class="fa-solid fa-pen"></i>Formación</h3>
                     <p>Bachillerato en Ciencias de la Ingeniería, UTEM</p>
                     <p>Ingeniería en Electricidad y Electrónica, DUOC UC</p>
         </div>
         <br> 
     </main>
-    <footer style="text-align: center; font-size: 14px; font-weight:bold">
-        <p style="color:darkblue;">Muchas gracias por tu interés. Si quieres saber más sobre mí : </p>
-        <a href="https://github.com/LuisGarayF" target="_blank"><i class="fa-brands fa-github" style="color: #000000; padding: 2px;"></i></a>
-        <a href="https://www.linkedin.com/in/luisgarayfuentes/"  target="_blank"><i class="fa-brands fa-linkedin" style="color:  #0e76a8; padding: 2px;"></i></a>
-    </footer>
+    </div>
 </body>
 </html>
